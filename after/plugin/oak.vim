@@ -16,7 +16,7 @@ call oak#hi('TelescopeBorder', g:oak#palette.trunk4)
 call oak#hi("nodeType", g:oak#palette.trunk5)
 call oak#hi("nodeTag", g:oak#palette.fur1)
 if has('nvim-0.8')
-  call oak#hi('@parameter', g:oak#palette.fg, '', 'italic')
+  call oak#hi('@parameter', g:oak#palette.fg, '', '')
 
   highlight default link @text.environment Keyword
 
@@ -35,5 +35,5 @@ if has('nvim-0.8')
   highlight default link @text.strong Bold
   highlight default link @text.underline Underlined
 else
-  call oak#hi('TSParameter', g:oak#palette.fg, '', 'italic')
+  call oak#hi('TSParameter', g:oak#palette.fg, '', '')
 endif
